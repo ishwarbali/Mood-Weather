@@ -1,0 +1,36 @@
+{
+    "info": {
+      "name": "Mood Weather Song Recommender",
+      "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
+      "description": "Postman collection for testing the Mood Weather Song Recommender API built with FastAPI.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "POST /mood-check",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"city\": \"London\",\n    \"mood\": \"happy\"\n}"
+          },
+          "url": {
+            "raw": "http://127.0.0.1:8000/mood-check",
+            "protocol": "http",
+            "host": ["127", "0", "0", "1"],
+            "port": "8000",
+            "path": ["mood-check"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
