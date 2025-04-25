@@ -1,5 +1,5 @@
 mood_weather_map = {
-    "happy": ["clear", "sunny"],
+    "happy": ["clear", "sunny","clouds"],
     "sad": ["rain", "drizzle", "fog"],
     "angry": ["storm", "thunderstorm"],
     "calm": ["clouds", "mist"],
